@@ -23,5 +23,3 @@ Pillow==10.0.0
 
 # Development
 ipython==8.14.0
-
-pip install plotly==5.15.0
