@@ -1,0 +1,35 @@
+{
+    "best_model": "Linear Regression",
+    "performance": {
+        "MAE": 0.74,
+        "MSE": 1.26,
+        "RMSE": 1.12,
+        "R2": 0.9252
+    },
+    "all_models": {
+        "Linear Regression": {
+            "MAE": 0.74,
+            "MSE": 1.26,
+            "RMSE": 1.12,
+            "R2": 0.9252
+        },
+        "Random Forest": {
+            "MAE": 1.37,
+            "MSE": 3.32,
+            "RMSE": 1.82,
+            "R2": 0.8032
+        }
+    },
+    "test_size": 0.2,
+    "features_used": [
+        "Occupancy_Count",
+        "Average_Temperature_C",
+        "Building_encoded",
+        "DayOfWeek",
+        "Month",
+        "IsWeekend",
+        "Lag_1",
+        "Rolling_Mean_3",
+        "Rolling_Mean_7"
+    ]
+}
